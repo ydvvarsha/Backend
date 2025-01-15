@@ -42,4 +42,4 @@ const userSchema = new mongoose.Schema({
     }
 },{timestamps : true , versionKey : false})
 
-module.exports = mongoose.model("User",userSchema)
+module.exports = mongoose.model("User",userSchema)   //Create a collection as users
